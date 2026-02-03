@@ -9,9 +9,9 @@ body {
   align-items: center;
   justify-content: center;
   background:
-    radial-gradient(circle at top left, #f179af, transparent 40%),
+    radial-gradient(circle at top left, #faa3ca, transparent 40%),
     radial-gradient(circle at bottom right, #ffd6e8, transparent 45%),
-    linear-gradient(135deg, #fff1f6, #ffe4ee);
+    linear-gradient(135deg, #fff1f6, #eec5d4);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
 }
 
@@ -69,7 +69,7 @@ button {
 
 .yes-btn {
   background: #f865af;
-  color: #f3c5c5;
+  color: #fffafa;
   box-shadow: 0 8px 20px rgba(219, 63, 141, 0.35);
 }
 
