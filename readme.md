@@ -1,9 +1,9 @@
 # WillYouBeMyValentine?
 
-This is a small Valentine’s Day prank webpage built using plain HTML, CSS, and JavaScript.
-UrL - https://willyoubemyvalentine69.vercel.app/
+This is a small Valentine’s Day prank webpage built using plain HTML, CSS, and JavaScript.  
+URL: https://willyoubemyvalentine69.vercel.app/
 
-### PC Only ###
+### PC Only
 
 It asks a simple question — *“Will you be my Valentine?”* — with two buttons:
 - **Yes**, which works normally
@@ -42,4 +42,9 @@ The entire project lives in a single HTML file.
 
 ---
 
+## Inspiration
 
+The idea for this project came from a viral Valentine-themed prank video where a webpage asks the same question and prevents the user from clicking the “No” button.
+
+Reference video:  
+https://youtube.com/shorts/HSNmR0gnWkQ
