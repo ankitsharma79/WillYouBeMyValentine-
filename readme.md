@@ -38,10 +38,3 @@ There are no frameworks, build tools, or dependencies.
 The entire project lives in a single HTML file.
 
 ---
-
-## File structure
-
-```text
-.
-├── index.html
-└── README.md
