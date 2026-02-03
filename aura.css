@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:
+    radial-gradient(circle at top left, #f179af, transparent 40%),
+    radial-gradient(circle at bottom right, #ffd6e8, transparent 45%),
+    linear-gradient(135deg, #fff1f6, #ffe4ee);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+}
+
+.card {
+  width: 720px;
+  padding: 52px 60px 56px;
+  background: #ffffff;
+  border-radius: 28px;
+  box-shadow:
+    0 24px 60px rgba(0,0,0,0.12);
+  color: #1f2937;
+}
+
+.heart {
+  font-size: 30px;
+  margin-bottom: 18px;
+  display: inline-block;
+  line-height: 1;
+  transform-origin: center;
+  animation: heartBeat 2.8s ease-in-out infinite;
+}
+h2 {
+  margin: 0 0 10px;
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.subtitle {
+  margin: 0 0 44px;
+  font-size: 16px;
+  color: #6b7280;
+  line-height: 1.55;
+  max-width: 460px;
+}
+
+.button-zone {
+  position: relative;
+  height: 160px;
+  border-radius: 20px;
+  background: #fff5fa;
+  border: 1px solid #f3d6e5;
+  padding: 32px;
+}
+
+button {
+  padding: 16px 42px;
+  border-radius: 999px;
+  border: none;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  user-select: none;
+}
+
+.yes-btn {
+  background: #f865af;
+  color: #f3c5c5;
+  box-shadow: 0 8px 20px rgba(219, 63, 141, 0.35);
+}
+
+.yes-btn:hover {
+  transform: translateY(-1px);
+}
+
+.no-btn {
+  position: absolute;
+  top: 32px;
+  left: 200px;
+  background: #f3f4f6;
+  color: #374151;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.12);
+}
+
+.result {
+  display: none;
+  margin-top: 48px;
+  text-align: center;
+}
+
+.result-gif {
+  width: 180px;
+  display: block;
+  margin: 0 auto 16px;
+}
+
+.result-text {
+  font-size: 20px;
+  font-weight: 600;
+  color: #ec4899;
+}
+.result-gif {
+  animation: popIn 0.25s ease-out;
+}
+
+@keyframes popIn {
+  from {
+    transform: scale(0.92);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
