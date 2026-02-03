@@ -2,6 +2,8 @@
 
 This is a small Valentine’s Day prank webpage built using plain HTML, CSS, and JavaScript.
 
+### PC Only ###
+
 It asks a simple question — *“Will you be my Valentine?”* — with two buttons:
 - **Yes**, which works normally
 - **No**, which refuses to be clicked and keeps moving away when the user tries
@@ -38,3 +40,4 @@ There are no frameworks, build tools, or dependencies.
 The entire project lives in a single HTML file.
 
 ---
+
