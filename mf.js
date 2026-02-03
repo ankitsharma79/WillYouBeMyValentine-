@@ -5,6 +5,15 @@ const zone = document.getElementById("zone");
 
   const padding = 12;
 
+  (function blockMobileAndTablet() {
+  const isTouch = navigator.maxTouchPoints > 0;
+  const isSmallScreen = window.innerWidth < 1024;
+
+  if (isTouch || isSmallScreen) {
+    document.getElementById("deviceBlock").style.display = "flex";
+    document.body.style.overflow = "hidden";
+  }
+})();
   function moveNo() {
     const maxX = zone.clientWidth - noBtn.offsetWidth - padding;
     const maxY = zone.clientHeight - noBtn.offsetHeight - padding;
